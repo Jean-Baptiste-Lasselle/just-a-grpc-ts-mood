@@ -1,0 +1,19 @@
+{
+  "name": "grpc-examples",
+  "version": "0.1.0",
+  "scripts": {
+    "hw:srv:start": "pnpm run helloworld:server:start",
+    "hw:cli:start": "pnpm run helloworld:client:start",
+    "helloworld:server:start": "node ./helloworld/dynamic_codegen/greeter_server.js",
+    "helloworld:client:start": "node ./helloworld/dynamic_codegen/greeter_client.js"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.0",
+    "async": "^1.5.2",
+    "google-protobuf": "^3.0.0",
+    "@grpc/grpc-js": "^1.8.0",
+    "@grpc/grpc-js-xds": "^1.8.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0"
+  }
+}
