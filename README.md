@@ -22,6 +22,11 @@ cd helloworld/dynamic_codegen
 
 ```
 
+## next: streams n reflection
+
+* <https://www.npmjs.com/package/@grpc/reflection>
+* n about grpc streams: todo
+
 ## Tooling
 
 * https://github.com/peterj/vscode-protobuf
